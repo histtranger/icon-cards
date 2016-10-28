@@ -10,28 +10,26 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
+  font-family: sans-serif;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
-body {
-  font-family: sans-serif;
-}
-
 .card {
   display: inline-block;
-  max-width: 20cm;
-  border: 3px solid black;
-  border-radius: 10px;
+  max-width: 25em;
+  border: 3px solid #333;
+  border-radius: 7px;
   text-decoration: none;
+  background-color: #fff;
+  color: #333;
 }
 
-.icon {
-  background: transparent none no-repeat center center;
-  background-size: contain;
-  vertical-align: middle;
+.card:hover {
+  background-color: #e6e6e6;
+  color: #000;
 }
 
 .no {
